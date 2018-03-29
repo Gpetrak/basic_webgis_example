@@ -31,7 +31,9 @@ When you have published your data in GeoServer, take a look in my_map.js file an
          layers: "layer_name",
          transparent: true,
          format: "image/png"
-         }, {                                                                                       isBaseLayer: false,                                                                     visibility: false,
+         }, {      
+            isBaseLayer: false,     
+            visibility: false,
             projection:new OpenLayers.Projection("EPSG:900913"),
             buffer: 0
             }
