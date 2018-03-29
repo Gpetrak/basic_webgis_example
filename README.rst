@@ -6,10 +6,10 @@ This is a basic WebGIS example based on GeoExt 2
 How to run it
 ------------
 
-At first you have to install Apache HTTP web server.
+At first you have to install Apache HTTP web server and git.
 To succeed that, in Ubuntu you have to type in a terminal the following command::
     
-    $ sudo apt-get install apache2
+    $ sudo apt-get install apache2 git
 
 After that, type::
   
