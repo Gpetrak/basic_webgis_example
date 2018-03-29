@@ -40,7 +40,10 @@ When you have published your data in GeoServer, take a look in my_map.js file an
          ),
 
 Replace the:
-* layer_title with the title of the specific layer
-* layer_name with the layer's name just like it has been stored in GeoServer
+ 
+layer_title with the title of the specific layer
+
+
+layer_name with the layer's name just like it has been stored in GeoServer
 
 Now you should visualize your data on the webGIS example !
