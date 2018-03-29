@@ -25,14 +25,15 @@ If all the staff has been built successfully, you should see a webGIS interface.
 To visualize layers on the map, you have to install GeoServer and publish your data in there. Follow the link: http://docs.geoserver.org/latest/en/user/ for the instructions.
 
 When you have published your data in GeoServer, take a look in my_map.js file and pay attention to the following pieces of code::
+    
     new OpenLayers.Layer.WMS("layer_title",
         "http://localhost:8080/geoserver/wms", {
          layers: "layer_name",
          transparent: true,
          format: "image/png"
-         }, {                                                                                                                             isBaseLayer: false,                                                                                                          visibility: false,
-             projection:new OpenLayers.Projection("EPSG:900913"),
-             buffer: 0
+         }, {                                                                                       isBaseLayer: false,                                                                     visibility: false,
+            projection:new OpenLayers.Projection("EPSG:900913"),
+            buffer: 0
             }
          ),
 
