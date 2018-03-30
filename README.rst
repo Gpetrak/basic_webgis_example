@@ -6,25 +6,25 @@ This is a basic WebGIS example based on GeoExt 2
 How to run it
 ------------
 
-At first you have to install Apache HTTP web server and git.
+1. At first you have to install Apache HTTP web server and git.
 To succeed that, in Ubuntu you have to type in a terminal the following command::
     
     $ sudo apt-get install apache2 git
 
-After that, type::
+2. After that, type::
   
     $ cd /var/www/html
     $ sudo git clone https://github.com/Gpetrak/basic_webgis_example
 
-Open a browser and navigate to the following link::
+3. Open a browser and navigate to the following link::
 
     http://localhost/basic_webgis_example/basic_webgis.html
 
 If all the staff has been built successfully, you should see the webGIS interface.
 
-To visualize layers on the map, you have to install GeoServer and publish your data in there. Follow the link: http://docs.geoserver.org/latest/en/user/ for the instructions.
+4. To visualize layers on the map, you have to install GeoServer and publish your data in there. Follow the link: http://docs.geoserver.org/latest/en/user/ for the instructions.
 
-When you have published your data in GeoServer, take a look in my_map.js file and pay attention to the following pieces of code::
+5. When you have published your data in GeoServer, take a look in my_map.js file and pay attention to the following pieces of code::
     
     new OpenLayers.Layer.WMS("layer_title",
         "http://localhost:8080/geoserver/wms", {
