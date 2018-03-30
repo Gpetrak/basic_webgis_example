@@ -41,7 +41,7 @@ When you have published your data in GeoServer, take a look in my_map.js file an
 
 Replace:
  
-layer_title with the title of the specific layer
+layer_title with the title of the layer
 
 
 layer_name with the layer's name just like it has been stored in GeoServer
