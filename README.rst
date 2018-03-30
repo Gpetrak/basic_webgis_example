@@ -23,10 +23,6 @@ Open a browser and navigate to the following link::
 If all the staff has been built successfully, you should see the webGIS interface:
 
 .. image:: img/webgis_interface.png
-  :heigt: 100px
-  :width: 200px
-  :scale: 100%
-  :align: center  
 
 To visualize layers on the map, you have to install GeoServer and publish your data in there. Follow the link: http://docs.geoserver.org/latest/en/user/ for the instructions.
 
