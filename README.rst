@@ -22,7 +22,7 @@ Open a browser and navigate to the following link::
 
 If all the staff has been built successfully, you should see the webGIS interface:
 
-..image:: img/webgis_interface.png
+.. image:: img/webgis_interface.png
   :heigt: 100px
   :width: 200px
   :scale: 100%
