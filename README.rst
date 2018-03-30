@@ -20,7 +20,9 @@ Open a browser and navigate to the following link::
 
     http://localhost/basic_webgis_example/basic_webgis.html
 
-If all the staff has been built successfully, you should see the webGIS interface.
+If all the staff has been built successfully, you should see the webGIS interface:
+
+![picture](img/webgis_interface.png)
 
 To visualize layers on the map, you have to install GeoServer and publish your data in there. Follow the link: http://docs.geoserver.org/latest/en/user/ for the instructions.
 
